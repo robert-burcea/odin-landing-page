@@ -1,0 +1,35 @@
+.header, .footer {
+    background-color:#1f2937;
+}
+.top-menu, .presentation {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.logo, .links {
+    flex: 0 1 auto;
+}
+.presentation {
+    color:rgb(255, 255, 255);
+    margin: 30px;
+}
+.information {
+    text-align: center;
+}
+.quotes {
+    background-color: #e5e7eb;
+    text-align: center;
+}
+.call-to-action {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3b82f6;
+}
+.call-to-action .sign-up {
+    flex: 0 1 auto;
+}
+.footer {
+    text-align:center;
+    color:white;
+}
